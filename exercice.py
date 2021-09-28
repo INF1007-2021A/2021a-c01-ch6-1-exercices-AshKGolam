@@ -92,21 +92,21 @@ def print_recipe(ingredients) -> None:
 
 
 def main() -> None:
-    #print(f"On essaie d'ordonner les valeurs...")
-    #print("La liste en ordre: ",order())
+    print(f"On essaie d'ordonner les valeurs...")
+    print("La liste en ordre: ",order())
 
-    #print(f"On vérifie les anagrammes...")
-    #print("Est-ce que ce sont des anagrammes? ",anagrams())
+    print(f"On vérifie les anagrammes...")
+    print("Est-ce que ce sont des anagrammes? ",anagrams())
 
-    #my_list = [3, 3, 5, 6, 1, 1]
-    #print(f"Ma liste contient-elle des doublons? {contains_doubles(my_list)}")
+    my_list = [3, 3, 5, 6, 1, 1]
+    print(f"Ma liste contient-elle des doublons? {contains_doubles(my_list)}")
 
-    #grades = {"Bob": [90, 65, 20], "Alice": [85, 75, 83]}
-    #best_student = best_grades(grades)
-    #print(f"{list(best_student.keys())[0]} a la meilleure moyenne: {list(best_student.values())[0]}")
+    grades = {"Bob": [90, 65, 20], "Alice": [85, 75, 83]}
+    best_student = best_grades(grades)
+    print(f"{list(best_student.keys())[0]} a la meilleure moyenne: {list(best_student.values())[0]}")
 
-    #sentence = "bonjour, je suis une phrase. je suis compose de beaucoup de lettre. oui oui"
-    #print("Voiçi un dictionnaire avec les occurences de chaque lettre > 5: \n",frequence(sentence))
+    sentence = "bonjour, je suis une phrase. je suis compose de beaucoup de lettre. oui oui"
+    print("Voiçi un dictionnaire avec les occurences de chaque lettre > 5: \n",frequence(sentence))
 
     print("On enregistre les recettes...")
     recipes = get_recipes()
